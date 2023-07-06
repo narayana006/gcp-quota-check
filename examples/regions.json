@@ -1,0 +1,444 @@
+[
+  {
+    "kind": "compute#region",
+    "id": "1100",
+    "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+    "name": "europe-west1",
+    "description": "europe-west1",
+    "status": "UP",
+    "zones": [
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/europe-west1-b",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/europe-west1-c",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/europe-west1-d"
+    ],
+    "quotas": [
+      {
+        "metric": "CPUS",
+        "limit": 24.0,
+        "usage": 8.0
+      },
+      {
+        "metric": "DISKS_TOTAL_GB",
+        "limit": 20480.0,
+        "usage": 400.0
+      },
+      {
+        "metric": "STATIC_ADDRESSES",
+        "limit": 8.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "IN_USE_ADDRESSES",
+        "limit": 8.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "SSD_TOTAL_GB",
+        "limit": 2048.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "LOCAL_SSD_TOTAL_GB",
+        "limit": 6000.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "INSTANCES",
+        "limit": 6000.0,
+        "usage": 2.0
+      },
+      {
+        "metric": "INSTANCE_GROUPS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "REGIONAL_INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "REGIONAL_AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "N2_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "N2D_CPUS",
+        "limit": 24.0,
+        "usage": 8.0
+      },
+      {
+        "metric": "C2_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "COMMITTED_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_L4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_A100_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESERVATIONS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESOURCE_POLICIES",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "ROUTERS",
+        "limit": 10.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "INTERNAL_ADDRESSES",
+        "limit": 200.0,
+        "usage": 2.0
+      },
+      {
+        "metric": "TARGET_POOLS",
+        "limit": 50.0,
+        "usage": 0.0
+      }
+    ],
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/regions/europe-west1",
+    "supportsPzs": false
+  },
+  {
+    "kind": "compute#region",
+    "id": "1000",
+    "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+    "name": "us-central1",
+    "description": "us-central1",
+    "status": "UP",
+    "zones": [
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-central1-a",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-central1-b",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-central1-c",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-central1-f"
+    ],
+    "quotas": [
+      {
+        "metric": "CPUS",
+        "limit": 72.0,
+        "usage": 70.0
+      },
+      {
+        "metric": "DISKS_TOTAL_GB",
+        "limit": 20480.0,
+        "usage": 6150.0
+      },
+      {
+        "metric": "STATIC_ADDRESSES",
+        "limit": 8.0,
+        "usage": 7.0
+      },
+      {
+        "metric": "IN_USE_ADDRESSES",
+        "limit": 8.0,
+        "usage": 6.0
+      },
+      {
+        "metric": "SSD_TOTAL_GB",
+        "limit": 2048.0,
+        "usage": 1750.0
+      },
+      {
+        "metric": "LOCAL_SSD_TOTAL_GB",
+        "limit": 6000.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "INSTANCES",
+        "limit": 6000.0,
+        "usage": 31.0
+      },
+      {
+        "metric": "INSTANCE_GROUPS",
+        "limit": 100.0,
+        "usage": 4.0
+      },
+      {
+        "metric": "INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 3.0
+      },
+      {
+        "metric": "REGIONAL_INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 3.0
+      },
+      {
+        "metric": "REGIONAL_AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "N2_CPUS",
+        "limit": 24.0,
+        "usage": 24.0
+      },
+      {
+        "metric": "N2D_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "C2_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "COMMITTED_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_L4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_A100_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESERVATIONS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESOURCE_POLICIES",
+        "limit": 100.0,
+        "usage": 6.0
+      },
+      {
+        "metric": "ROUTERS",
+        "limit": 10.0,
+        "usage": 2.0
+      },
+      {
+        "metric": "INTERNAL_ADDRESSES",
+        "limit": 200.0,
+        "usage": 14.0
+      },
+      {
+        "metric": "TARGET_POOLS",
+        "limit": 50.0,
+        "usage": 0.0
+      }
+    ],
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/regions/us-central1",
+    "supportsPzs": false
+  },
+  {
+    "kind": "compute#region",
+    "id": "1230",
+    "creationTimestamp": "1969-12-31T16:00:00.000-08:00",
+    "name": "us-east1",
+    "description": "us-east1",
+    "status": "UP",
+    "zones": [
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-east1-b",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-east1-c",
+      "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/zones/us-east1-d"
+    ],
+    "quotas": [
+      {
+        "metric": "CPUS",
+        "limit": 24.0,
+        "usage": 16.0
+      },
+      {
+        "metric": "DISKS_TOTAL_GB",
+        "limit": 20480.0,
+        "usage": 900.0
+      },
+      {
+        "metric": "STATIC_ADDRESSES",
+        "limit": 8.0,
+        "usage": 2.0
+      },
+      {
+        "metric": "IN_USE_ADDRESSES",
+        "limit": 8.0,
+        "usage": 2.0
+      },
+      {
+        "metric": "SSD_TOTAL_GB",
+        "limit": 2048.0,
+        "usage": 200.0
+      },
+      {
+        "metric": "LOCAL_SSD_TOTAL_GB",
+        "limit": 6000.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "INSTANCES",
+        "limit": 6000.0,
+        "usage": 6.0
+      },
+      {
+        "metric": "INSTANCE_GROUPS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "REGIONAL_INSTANCE_GROUP_MANAGERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "REGIONAL_AUTOSCALERS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "N2_CPUS",
+        "limit": 24.0,
+        "usage": 8.0
+      },
+      {
+        "metric": "N2D_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "C2_CPUS",
+        "limit": 24.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "COMMITTED_CPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_L4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "NVIDIA_A100_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "PREEMPTIBLE_NVIDIA_T4_GPUS",
+        "limit": 0.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESERVATIONS",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "RESOURCE_POLICIES",
+        "limit": 100.0,
+        "usage": 0.0
+      },
+      {
+        "metric": "ROUTERS",
+        "limit": 10.0,
+        "usage": 1.0
+      },
+      {
+        "metric": "INTERNAL_ADDRESSES",
+        "limit": 200.0,
+        "usage": 3.0
+      },
+      {
+        "metric": "TARGET_POOLS",
+        "limit": 50.0,
+        "usage": 0.0
+      }
+    ],
+    "selfLink": "https://www.googleapis.com/compute/v1/projects/acme-prod-1234/regions/us-east1",
+    "supportsPzs": false
+  }
+]

@@ -1,0 +1,158 @@
+{
+  "kind": "compute#project",
+  "id": "731402958811",
+  "creationTimestamp": "2024-05-01T09:00:00.000-07:00",
+  "name": "acme-prod-1234",
+  "commonInstanceMetadata": {
+    "kind": "compute#metadata",
+    "fingerprint": "tZEOlRRqx4I=",
+    "items": [
+      {
+        "key": "enable-oslogin",
+        "value": "TRUE"
+      }
+    ]
+  },
+  "quotas": [
+    {
+      "metric": "SNAPSHOTS",
+      "limit": 5000.0,
+      "usage": 412.0
+    },
+    {
+      "metric": "NETWORKS",
+      "limit": 15.0,
+      "usage": 14.0
+    },
+    {
+      "metric": "FIREWALLS",
+      "limit": 200.0,
+      "usage": 163.0
+    },
+    {
+      "metric": "IMAGES",
+      "limit": 2000.0,
+      "usage": 37.0
+    },
+    {
+      "metric": "ROUTES",
+      "limit": 250.0,
+      "usage": 41.0
+    },
+    {
+      "metric": "SUBNETWORKS",
+      "limit": 175.0,
+      "usage": 22.0
+    },
+    {
+      "metric": "FORWARDING_RULES",
+      "limit": 15.0,
+      "usage": 9.0
+    },
+    {
+      "metric": "TARGET_POOLS",
+      "limit": 50.0,
+      "usage": 0.0
+    },
+    {
+      "metric": "HEALTH_CHECKS",
+      "limit": 75.0,
+      "usage": 12.0
+    },
+    {
+      "metric": "BACKEND_SERVICES",
+      "limit": 50.0,
+      "usage": 9.0
+    },
+    {
+      "metric": "URL_MAPS",
+      "limit": 10.0,
+      "usage": 9.0
+    },
+    {
+      "metric": "TARGET_HTTP_PROXIES",
+      "limit": 10.0,
+      "usage": 3.0
+    },
+    {
+      "metric": "TARGET_HTTPS_PROXIES",
+      "limit": 10.0,
+      "usage": 6.0
+    },
+    {
+      "metric": "SSL_CERTIFICATES",
+      "limit": 30.0,
+      "usage": 11.0
+    },
+    {
+      "metric": "SSL_POLICIES",
+      "limit": 10.0,
+      "usage": 1.0
+    },
+    {
+      "metric": "STATIC_ADDRESSES",
+      "limit": 21.0,
+      "usage": 4.0
+    },
+    {
+      "metric": "INSTANCE_TEMPLATES",
+      "limit": 1000.0,
+      "usage": 58.0
+    },
+    {
+      "metric": "MACHINE_IMAGES",
+      "limit": 1000.0,
+      "usage": 2.0
+    },
+    {
+      "metric": "SECURITY_POLICIES",
+      "limit": 10.0,
+      "usage": 1.0
+    },
+    {
+      "metric": "SECURITY_POLICY_RULES",
+      "limit": 200.0,
+      "usage": 12.0
+    },
+    {
+      "metric": "GLOBAL_INTERNAL_ADDRESSES",
+      "limit": 5000.0,
+      "usage": 3.0
+    },
+    {
+      "metric": "CPUS_ALL_REGIONS",
+      "limit": 100.0,
+      "usage": 94.0
+    },
+    {
+      "metric": "GPUS_ALL_REGIONS",
+      "limit": 0.0,
+      "usage": 0.0
+    },
+    {
+      "metric": "VPN_TUNNELS",
+      "limit": 30.0,
+      "usage": 2.0
+    },
+    {
+      "metric": "VPN_GATEWAYS",
+      "limit": 15.0,
+      "usage": 1.0
+    },
+    {
+      "metric": "PUBLIC_ADVERTISED_PREFIXES",
+      "limit": 1.0,
+      "usage": 0.0
+    },
+    {
+      "metric": "XPN_SERVICE_PROJECTS",
+      "limit": 1000.0,
+      "usage": 0.0
+    }
+  ],
+  "selfLink": "https://www.googleapis.com/compute/v1/projects/acme-prod-1234",
+  "defaultServiceAccount": "123456789012-compute@developer.gserviceaccount.com",
+  "xpnProjectStatus": "UNSPECIFIED_XPN_PROJECT_STATUS",
+  "defaultNetworkTier": "PREMIUM",
+  "vmDnsSetting": "ZONAL_ONLY"
+}
