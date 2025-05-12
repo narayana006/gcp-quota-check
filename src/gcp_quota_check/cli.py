@@ -109,7 +109,7 @@ def render_table(rows: list[Quota], checked: list[Quota], ds: Dataset, counts: d
     if GLOBAL in scopes:
         where.append("project-wide")
     project = f" for {', '.join(ds.projects)}" if ds.projects else ""
-    lines = [f"Checked {counts['checked']} quota(s) in {' + '.join(where) or 'no scopes'}{project}; "
+    lines = [f"Checked {counts['checked']} quota(s) ({', '.join(where) or 'none'}){project}; "
              f"warn at {_num(args.warn)}%, critical at {_num(args.critical)}%", ""]
     if rows:
         table = [["SCOPE", "METRIC", "USAGE", "LIMIT", "USED", "STATUS"]]

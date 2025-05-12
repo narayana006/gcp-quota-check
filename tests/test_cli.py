@@ -22,7 +22,7 @@ def test_example_default_table(capsys):
     code, out, _ = run(capsys, REGIONS, PROJECT)
     assert code == 2
     lines = out.splitlines()
-    assert lines[0].startswith("Checked 105 quota(s) in 3 region(s) + project-wide for acme-prod-1234")
+    assert lines[0].startswith("Checked 105 quota(s) (3 region(s), project-wide) for acme-prod-1234")
     rows = [l.split() for l in lines[3:] if l and not l.startswith("Summary")]
     assert rows[0][:2] == ["us-central1", "N2_CPUS"] and rows[0][-1] == "CRITICAL"
     assert [r[1] for r in rows] == ["N2_CPUS", "CPUS", "CPUS_ALL_REGIONS", "NETWORKS", "URL_MAPS",
